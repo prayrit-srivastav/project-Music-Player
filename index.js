@@ -127,10 +127,10 @@ genreSelect.addEventListener('change', () => {
   }
   
   // Play current song
-  playButton.addEventListener('click', () => {
-    const songUrl = playlist[currentSongIndex].source;
-    playSong(songUrl);
-  });
+  // playButton.addEventListener('click', () => {
+  //   const songUrl = playlist[currentSongIndex].source;
+  //   playSong(songUrl);
+  // });
   
   // Next song
   nextButton.addEventListener('click', () => {
